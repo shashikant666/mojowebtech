@@ -1,0 +1,51 @@
+==== Query
+  curl -i -X GET \
+   "https://graph.facebook.com/v20.0/me/accounts?access_token=EAAeMh0cTLUEBO8LTTWUlMZBvZAllNQdZBUZBP6wsNQj0yvVFM9AcNSIID5EuyLvcXdUR7aHDtNcoJ3TY02OhZBShfeJVHx15Gv0pRG8SyuNFNaEGVRlL1KQlPppZA8r6Uox8kPjXdIw5JbyzuHiHiFLEWQ4mU3Wn7y049lPy7CXylyR7ICstOGeqwy"
+==== Access Token Info
+  {
+    "perms": [
+      "pages_show_list",
+      "pages_read_engagement",
+      "public_profile"
+    ],
+    "user_id": 462675853392658,
+    "app_id": 2124837477887297
+  }
+==== Parameters
+- Query Parameters
+
+
+  {}
+- POST Parameters
+
+
+  {}
+==== Response
+  {
+    "data": [
+      {
+        "access_token": "EAAeMh0cTLUEBOwWaFyz8HWO64vTM2R1XMtMMrxEqtYq78HkcnrW8kevJnVFGBGOKP1L9aKZCAq4RHAfbRyP1ZBTEmVspGxQZB2417j75bYnI8GILuVcOq8UZBZAap1KVLjXROa2LzKbzdSZCKlASPxs4MAnYzso06ZBDmZAKbUCZC1dcJ4lGQLMsKMBAPSvB9TwZCG8t8e9I6IfPrETZCLNZBcLXV9UVJAZDZD",
+        "category": "Software",
+        "category_list": [
+          {
+            "id": "2211",
+            "name": "Software"
+          }
+        ],
+        "name": "Test app",
+        "id": "323211034218129",
+        "tasks": [
+          "ADVERTISE",
+          "ANALYZE",
+          "CREATE_CONTENT",
+          "MESSAGING",
+          "MODERATE",
+          "MANAGE"
+        ]
+      }
+    ],
+    "paging": "--sanitized--",
+    "__debug__": {}
+  }
+==== Debug Information from Graph API Explorer
+- https://developers.facebook.com/tools/explorer/2124837477887297/?method=GET&path=me%2Faccounts&version=v20.0
